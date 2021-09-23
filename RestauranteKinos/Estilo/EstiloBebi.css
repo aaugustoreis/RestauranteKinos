@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body{
+	font-family: 'Century Gothic';
+	color: white;
+	background: linear-gradient(
+	rgba(0,0,0,0.50),rgba(0,0,0,0.25),rgba(0,0,0,0.15),rgba(0,0,0,0.0)),
+	url(../imagens/FundoBebi.jpg)no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+		
+} 
+header#cabecalho h1{
+	 font-family:Arial, sans-serif;
+	 font-size:30pt;
+	 color:#965700;
+	 text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	 padding:0px;
+	 margin-bottom:0px;
+}
+
+header#cabecalho h2{
+	font-family: Arial, sans-serif;
+	font-size:15pt;
+	color:#cecece;
+	padding:0px;
+	margin-top:0px;
+}
+#cardapio{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top:100px;
+	
+}
+
+#cardapio img{
+	padding:5px;
+	width:300px;
+	height:200px;
+	border-radius:50px;
+
+	
+}
+
+#item{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	color:#ffffff;
+	background-color:rgba(0,0,0, .65);
+	margin:10px;
+	border-radius:5px;
+	padding:20px;
+}
+#item p{
+	font-size: 14px;
+}
+#item button{
+	background-color:#965700;
+	margin:10px;
+	color:#ffffff;
+	border-radius:5px;
+	padding:10px;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+	border:none; 
+}
+#item button:hover{
+	background-color:#cecece;
+}

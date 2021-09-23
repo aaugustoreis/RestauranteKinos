@@ -1,0 +1,445 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+	margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;
+font-family: 'Lato', sans-serif;
+}
+
+body{
+	
+	font-family: 'Century Gothic';
+	color: white;
+	background:url(../imagens/FundoPrinc.jpg)no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}  
+
+#corp{
+	width:100%;
+	height:45%;
+	
+	font-family: 'Century Gothic';
+	color: white;
+	background: linear-gradient(
+	rgba(0,0,0,0.50),rgba(0,0,0,0.25),rgba(0,0,0,0.15),rgba(0,0,0,0.0)),
+	url(../imagens/Fundo.jpg)no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#cabecalho{
+	width:100%;
+	
+	
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,.5);
+	
+}
+ #Bv{
+	 font-family:Arial, sans-serif;
+	 font-size:30pt;
+	 color:#965700;
+	 text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	 padding:0px;
+	 margin-bottom:0px;
+	 text-align: center;
+ }
+ header#cabecalho h1{
+	 font-family:Arial, sans-serif;
+	 font-size:30pt;
+	 color:#ffffff;
+	 text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	 padding:0px;
+	 margin-bottom:0px;
+}
+
+header#cabecalho h2{
+	font-family: Arial, sans-serif;
+	font-size:15pt;
+	color:#cecece;
+	padding:0px;
+	margin-top:0px;
+}
+#icone{
+	padding:5px;
+	width:200px;
+	height:150px;
+	
+	
+}
+
+/* Formatação dos menus*/
+nav#menu{
+	width: 850px;
+	float: right;
+	border: 1px solid none;
+	box-shadow: 6px 6px 6px 6px rgba(0,0,0,.5);
+	
+}
+nav#menu ul li {
+	width:120px;
+	float:left;
+	margin: 10px auto;
+	text-align: Center;
+	transition: background-color 1s; 
+	
+}
+nav#menu ul li a{
+	text-decoration:none;
+	color:#cecece;
+	font-size:13pt;
+	
+}
+nav#menu ul li:hover{background-color: #965700}
+nav#menu ul li a:hover{color: white;}
+
+
+/* formatação do Corpo */
+#interface{
+
+	background-repeat: no-repeat;
+}
+
+section#corpo{
+	
+	display:block;
+	width: 75%;
+	float:left;
+	border-right:1px solid    none; 
+	padding-right: 40px;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,.5);
+	
+}
+
+article#artigo1 h2{
+	font-size: 12pt;
+	color:#dddddd;
+	background-color:#dddddd;
+	padding:10px 0px 10px 10px;
+	margin: 5px;
+
+}
+
+/* formatação de imagens com legenda */
+
+figure.foto-legenda{ 
+position: relative;
+	border: 8px solid none;
+	box-shadow: 1px 1px 4px black;
+	
+}
+figure.foto-legenda figcaption {
+	opacity:0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width:100%;
+	height:100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s; 
+}
+figure.foto-legenda:hover figcaption{
+opacity: 1;
+}
+
+figure.foto-legenda img {
+width:100%;
+height: 100%;}
+
+#Letrafig{
+	font-size:16pt;
+	font-family:'Times New Roman';
+}
+
+
+/* formatação do lado lateral */
+aside#lateral{
+	display:block;
+	width:20%;
+	height: 10%;
+	float:right;
+	padding: 10px;
+	margin-top:10px;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,.5);
+
+		
+}
+aside#lateral h1{
+	font-family:'fontelogo', sans-serif;
+	font-size:20pt;
+	background-color:#cecece;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+aside#lateral h2{
+	font-size:13pt;
+	background-color:#666666;
+	margin:0px;
+}
+
+
+
+/* formatação da Publicidade sobre o Local */
+#Publicidade{
+	background-image:url(../imagens/Fun.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top:100px;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,.5);
+}
+#Publicidade img{
+	padding:5px;
+	width:300px;
+	height:200px;
+	border-radius:50px;
+
+	
+}
+#item{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	color:#ffffff;
+
+	margin:10px;
+	border-radius:5px;
+	padding:20px;
+	
+}
+#item1:hover{
+	width:400px;
+	height:300px;
+	transition: 1s; 
+}
+#item2:hover{
+	width:400px;
+	height:300px;
+	transition: 1s; 
+}
+#item3:hover{
+	width:400px;
+	height:300px;
+	transition: 1s; 
+}
+
+#item p{
+	font-size: 14px;
+}
+
+
+/* CONTAINER */
+.container {
+	width: 100%; 
+	float: left; 
+	padding: 3% 4%; 
+	text-align: center;
+	}
+/*BG COLORS */
+.bg-gradient {
+	background: linear-gradient(to right,#ce2e3c,#da6709);
+	}
+.bg-black {
+	background-color: #130400; 
+	}
+.bg-white {
+	background-color: #fff;
+	}
+
+
+/* BANNER */
+.banner {
+	background: url(../img/bg.jpg) no-repeat fixed;
+}
+.title {
+	width: 100%;
+	}
+.title h2 {
+	font-size: 2.5em; 
+	color: #fff; 
+	font-weight: 700;
+	}
+.title h3 {
+	font-size: 1.5em; 
+	color: #fff;
+	}
+.buttons {
+	width: 100%; 
+	margin-top: 2%; 
+	border-radius:50px;
+	}
+.buttons i {
+	float: right;
+	}
+.btn {
+	width: 100%; 
+font-size: 1.5em; 
+text-align: left; 
+cursor: pointer; 
+padding: 5%; 
+}
+.btn-cadastrar { 
+color: #130400;
+border-radius:50px;
+}
+.btn-sobre {
+	color:#fff ; 
+	margin-top: 2%;
+	border-radius:50px;
+	}
+/* SERVIÇOS */
+.servico {
+	width: 100%;  
+	text-align: left;  
+	margin-bottom: 3%; 
+	background-color:#666666;
+	}
+.servico img {width:100%;
+height: 100%;
+	}
+.inner {
+	padding: 7%;
+}
+.inner a {
+	font-size: 1.5em; 
+	color: #130400; 
+	font-weight: 700; 
+	}
+.inner h4 {
+	font-size: 1.2em; 
+	color: #130400; 
+	margin-top: 2%; 
+	}
+.inner p {
+	margin-top: 6%; 
+	color: #130400; 
+	line-height: 1.5em;
+	}
+/* NEWSLETTER */
+.newsletter h2 {
+	font-size: 1.5em; 
+	color: #fff; 
+	font-weight: 700; 
+	}
+.newsletter h3 {
+	color: #fff;
+	}
+.newsletter form {
+	margin-top: 2%;
+	}
+.newsletter input {
+	width: 100%;  
+	color: #fff; 
+	border: 1px solid rgba(255,255,255,0.3); 
+	padding: 5%; 
+	}
+.newsletter button {
+	width: 100%;  
+	color:#130400; 
+	padding: 5%; 
+	cursor: pointer; 
+	margin-top: 2%;
+	border-radius:50px;
+	}
+
+
+/* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 768px) {
+.servico {
+	width: 49%; 
+	float: left; 
+	margin-right: 2%;
+	}
+.servico:nth-child(2){
+	margin-right: 0;
+}
+.newsletter h2 {
+	font-size: 2em;
+	}
+.newsletter h3 {
+	font-size: 1.5em;
+	}
+.newsletter input {
+	width: 70%; 
+	padding: 2%; 
+	float: left; 
+	margin-right: 1%;
+	}
+.newsletter button {
+	width: 29%; 
+	padding: 2%; 
+	float: right; 
+	margin-top: 0;
+	}
+}
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+.title {
+	width: 70%; 
+	float: left; 
+	text-align: left;
+	}
+
+.buttons 
+{
+	width: 30%; 
+	float: right; 
+	margin-top: 0; 
+	}
+.servico 
+{
+	width: 32%; 
+}
+.servico:nth-child(2)
+{
+	margin-right: 2%;
+	}
+.servico:nth-child(3)
+{
+	margin-right: 0;
+	}
+	
+	section#Pub2
+	{
+	display:block;
+	float:left;
+	border-right:1px solid    none; 
+	padding-right: 40px;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,.8);
+}
+	section#Pub1
+	{
+	display:block;
+	
+	border-right:3px solid none; 
+	padding-right: 40px;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,.8);
+	
+}
+
+.newsletter input {
+	width: 60%; 
+	float: none;
+	}
+.newsletter button {
+	width: 20%; 
+	float: none;
+	}
+        
+}
+/* RODAPÉ */
+.social-icons a 
+
+.copyright {
+	color: rgba(255, 255, 255, 0.7); margin-top:2%;
+}
+a{
+  
+    text-decoration: none;
+     
+}
